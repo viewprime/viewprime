@@ -178,7 +178,7 @@ const Hero = () => {
               
               <p className="text-xl md:text-2xl text-white leading-relaxed max-w-3xl mx-auto">
                 Experience ultra-fast fiber internet with speeds up to 1000 Mbps. 
-                Perfect for streaming, gaming, working from home, and smart devices.
+                Perfect for streaming, gaming, working from home, and smart devices. (833) 840-2117
               </p>
             </div>
 
