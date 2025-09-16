@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# ViewPrime - Premium Internet Services
+
+ViewPrime provides high-speed internet solutions for homes and businesses. Our platform offers comprehensive information about our internet packages, services, and support.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/a5c5694b-6689-45b3-a78d-3f31d4d9f314
+**Website**: https://viewprimes.com
+**Repository**: https://github.com/viewprime/viewprime
 
-## How can I edit this code?
+## Development Setup
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/a5c5694b-6689-45b3-a78d-3f31d4d9f314) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+To run this project locally, follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone https://github.com/viewprime/viewprime.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd viewprime
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Technologies Used
 
-**Use GitHub Codespaces**
+This project is built with modern web technologies:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library for building user interfaces
+- **shadcn/ui** - Beautiful and accessible UI components
+- **Tailwind CSS** - Utility-first CSS framework
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the master branch triggers a new deployment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+**Live Site**: https://viewprimes.com
 
-## How can I deploy this project?
+## Features
 
-Simply open [Lovable](https://lovable.dev/projects/a5c5694b-6689-45b3-a78d-3f31d4d9f314) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Responsive design for all devices
+- Modern UI with shadcn/ui components
+- Fast loading with Vite
+- Type-safe development with TypeScript
+- Automated deployment with GitHub Actions
