@@ -312,11 +312,11 @@ const Refund = () => {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
                   <p className="text-gray-600 mb-4">Speak with a customer service representative</p>
                   <a 
-                    href="tel:1-800-VIEW-PRIME" 
+                    href="tel:+1-833-840-2117" 
                     className="btn-primary inline-flex items-center"
                   >
                     <Phone className="w-4 h-4 mr-2" />
-                    (800) VIEW-PRIME
+                    (833) 840-2117
                   </a>
                 </div>
 

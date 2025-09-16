@@ -220,8 +220,8 @@ const Privacy = () => {
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">Call Us</div>
-                      <a href="tel:1-800-VIEW-PRIME" className="text-purple-600 hover:text-purple-700">
-                        (800) VIEW-PRIME
+                      <a href="tel:+1-833-840-2117" className="text-purple-600 hover:text-purple-700">
+                        (833) 840-2117
                       </a>
                     </div>
                   </div>

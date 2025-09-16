@@ -66,11 +66,11 @@ const Footer = () => {
             {/* Contact Info */}
             <div className="space-y-3">
               <a 
-                href="tel:+18558477463" 
+                href="tel:+1-833-840-2117" 
                 className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors duration-300"
               >
                 <Phone className="w-5 h-5" />
-                <span>(855) 847-7463</span>
+                <span>(833) 840-2117</span>
               </a>
             </div>
           </div>

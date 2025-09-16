@@ -76,13 +76,13 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-4 text-sm">
               <a 
-                href="tel:+1-855-847-7463" 
+                href="tel:+1-833-840-2117" 
                 className={`flex items-center space-x-1 transition-colors duration-300 hover:text-purple-600 ${
                   isScrolled ? 'text-gray-600' : 'text-white/90'
                 }`}
               >
                 <Phone className="w-4 h-4" />
-                <span>(855) 847-7463</span>
+                <span>(833) 840-2117</span>
               </a>
             </div>
             <Link
@@ -127,11 +127,11 @@ const Header = () => {
             ))}
             <div className="pt-4 border-t border-gray-200 space-y-3">
               <a 
-                href="tel:+1-855-847-7463" 
+                href="tel:+1-833-840-2117" 
                 className="flex items-center space-x-2 py-2 px-4 text-gray-600 hover:text-purple-600 transition-colors duration-300"
               >
                 <Phone className="w-4 h-4" />
-                <span>(855) 847-7463</span>
+                <span>(833) 840-2117</span>
               </a>
               <Link
                 to="/#check-availability"
